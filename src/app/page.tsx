@@ -7,7 +7,7 @@ import { authors } from "../lib/authors";
 export default function Home() {
   return (
     <main className="flex flex-col h-screen  bg-brand">
-      <div className="h-screen overflow-y-scroll">
+      <div className="h-screen overflow-y-scroll mb-24">
         <header className="flex justify-center items-center h-80 bg-gradient-to-t from-brand to-gradient">
           <Image src="/TCC-CAPA.svg" alt="capa" height={240} width={184} />
         </header>
@@ -35,7 +35,7 @@ export default function Home() {
           </div> 
         </article>
       </div>
-      <footer className="flex h-24">
+      <footer className="flex h-24 fixed bottom-0 w-full">
         {/* <button className="flex  justify-center items-center bg-stone-300 w-1/3">Preview</button> */}
         <DownloadButton/>
       </footer>
