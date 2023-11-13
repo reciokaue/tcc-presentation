@@ -37,7 +37,7 @@ export function DownloadButton() {
       className="flex gap-2 font-medium uppercase text-white justify-center items-center bg-brand w-full"
     >
       {downloaded? "Download concluído": "Fazer download"}
-      <Download size={20}/>
+      <Download size={24}/>
     </button>  
   );
 };
