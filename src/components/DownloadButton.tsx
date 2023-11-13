@@ -34,7 +34,7 @@ export function DownloadButton() {
   return (
     <button
       onClick={handleDownload}
-      className="flex gap-2 font-medium uppercase text-white justify-center items-center bg-brand w-full"
+      className="flex gap-2 font-medium uppercase text-white justify-center items-center w-full bg-gradient-to-r from-brand to-gradient"
     >
       {downloaded? "Download concluído": "Fazer download"}
       <Download size={24}/>
