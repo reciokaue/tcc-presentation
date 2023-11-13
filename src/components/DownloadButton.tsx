@@ -10,12 +10,12 @@ export function DownloadButton() {
 
   const handleDownload = async () => {
     try {
-      const response = await fetch("/example.pdf");
+      const response = await fetch("/TCC.pdf");
       const blob = await response.blob();
 
       const downloadLink = document.createElement('a');
       downloadLink.href = window.URL.createObjectURL(blob);
-      downloadLink.download = "TCC-Repressão";
+      downloadLink.download = "TCC-Repressão dos trabalhadores e jovens de Sorocaba";
       document.body.appendChild(downloadLink);
       downloadLink.click();
 
