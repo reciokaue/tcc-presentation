@@ -13,7 +13,7 @@ export default function Home() {
         </header>
         <article className="flex flex-col flex-1 p-6 bg-white rounded-tl-3xl rounded-tr-3xl">
           <span className="text-brand font-semibold text-xs">APOSTILA TCC</span>
-          <h1 className="font-semibold text-stone-800 text-2xl">A Repressão dos trabalhadores e jovens de sorocaba</h1>
+          <h1 className="font-semibold text-stone-800 text-3xl">A Repressão dos trabalhadores e jovens de Sorocaba</h1>
           <h2 className="mt-2 font-medium text-2xl text-brand">R$ 0,00</h2>
 
           <h3 className="mt-6 mb-2 text-md font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Sobre o nosso TCC</h3>
